@@ -1,0 +1,45 @@
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    font-weight: bold
+}
+.index{
+    background-color: #ff7f50;
+    background-image:url(img/index.png);
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 75px;
+    font-size: 30px;
+}
+header,nav{
+    background-color: white;
+    padding: 3px;
+    display:flex;
+    justify-content: space-around;
+    font-weight: bold;
+
+}
+.sabores{
+    background-color: #FFD1A3;
+}
+.notas{
+    background-color: #FA8072;
+}
+
+
+.sabores>nav{
+    background-color: none;
+}
+.PS{
+    background-image: url(img/trab.png);
+}
