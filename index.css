@@ -8,12 +8,19 @@
     padding: 0;
 
 }
-    body{
-        background-color: white;
-        background-image:url(CALJimg/indeximg.jpg);
-        background-repeat: no-repeat;
-        background-size:100% ;
+.minha-div{
+    width: 100%;
+    background-image: url('ComAmorLJ/index.jpg');
+}
+    body {
+       
+      
+    
+        text-align: center;
+        padding: 50px;
+        font-family: 'theseasons';
     }
+
     
 
 a{
@@ -23,12 +30,12 @@ a{
     font-size: 30px;
 }
 header,nav{
-    background-color: white;
+    background-color: none;
     padding: 3px;
     display:flex;
     justify-content: space-around;
     font-weight: bold;
+
 }
-.PS{
-    background-image: url();
-}
+
+
